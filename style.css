@@ -1,0 +1,39 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+table{
+	width: 100%;
+	height: 100%;
+}
+
+#firstHalf{
+	height: 70%;
+}
+
+#textAddedContainer{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+
+td{
+	text-align: center;
+}
+
+textarea{
+	border-radius: 5px;
+	margin-top: 20px;
+	resize: none;
+	width: 30%;   /*This works perfect for percent and px*/
+	height: 100px;	/*Why does px work but not %?*/
+	/*display: inline-block;*/
+}
+
+#secondHalf{
+	text-align: center;
+}
